@@ -1,0 +1,3 @@
+- pyproject.toml defines project metadata and splits production dependencies from dev tooling (pytest, ruff, mypy).
+- FastAPI handles API routing, validation, and dependency injection, while Uvicorn acts as the underlying ASGI web server.
+- Fail-fast validation with Pydantic ensures configuration bugs are caught at startup rather than in production runtime.
